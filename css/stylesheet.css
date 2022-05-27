@@ -1,0 +1,49 @@
+@import "normalize.css";
+@import "config.css";
+
+.container{
+    padding: 0 8%;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+/*position: fixed;
+width: 100%;*/
+}
+
+nav{
+display: flex;
+align-items: center;
+}
+
+.button{
+    color: var(--color-dark-blue);
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 25px;
+    padding: 5px 40px;
+}
+
+.button:hover {
+   color: var(--color-white);
+   background-color: var(--color-dark-blue);
+   border-radius: 20px;
+   padding: 5px 40px;
+}
+
+.title-big {
+ color: var(--color-dark-blue);
+font-size: 60px;
+margin-bottom: 60px;
+max-width: 600px;
+}
+
+.home p {
+    color: var(--color-dark-blue);
+    font-size: 22px;
+    margin-bottom: 30px;
+    max-width: 420px;
+}
